@@ -1,0 +1,161 @@
+/* Pour délimiter les exercices*/
+.Exo{
+    position: relative;
+    margin-bottom: 75px;
+    text-align: center;
+}
+/*Crée un bloc*/
+.block{
+    padding: 10px;
+    border: 2px solid black;
+}
+/*Crée un carré*/
+.square{
+    box-sizing: border-box;
+    width: 130px;
+    height: 130px;
+    border: 1px solid black;
+}
+/*Crée un conteneur*/
+.box{
+    width: 300px;
+    height: 300px;
+    padding: 1%;
+    box-sizing: content-box;
+    border: 1px solid black;
+}
+/*Positions*/
+.static{
+    position: static;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+/*Couleurs*/
+.olive{
+    background-color:olivedrab;
+}
+.blue{
+    background-color: blue;
+}
+.orange{
+    background-color: orange;
+}
+.aqua{
+    background-color: aquamarine;
+}
+.skyblue{
+    background-color: skyblue;
+}
+.apple{
+    background-color: greenyellow;
+}
+.darkblue{
+    background-color: darkblue;
+}
+.choco{
+    background-color: chocolate;
+}
+.gold{
+    background-color: gold;
+}
+.silver{
+    background-color: silver;
+}
+/*Pour rendre un élément flottant*/
+.floatright{
+    float: right;
+}
+.floatleft{
+    float: left;
+}
+.floatinit{
+    float: initial;
+}
+.num2{
+    bottom: 40%;
+    left: 7%;
+    z-index: 4;
+    opacity: 0.5;
+}
+.num3{
+    bottom: 50%;
+    left: 43%;
+    z-index: 3;
+}
+.num4{
+    left: 50%;
+    bottom: 90%;
+    z-index: 2;
+}
+.margin10{
+    margin: 10px;
+}
+/*Pour déplacer un élément en relatif*/
+.top20{
+    top: 20%;
+}
+.top100{
+    top: 100%;
+}
+.top150{
+    top: 150%;
+}
+.top200{
+    top: 200%;
+}
+.right20{
+    right: 20%;
+}
+.left50{
+    left:50%;
+}
+.left250{
+    left: 250%;
+}
+.bottom50{
+    bottom: 50%;
+}
+/*Pour rendre élément semi transparent*/
+.semiOP{
+    opacity: 0.5;
+}
+li{
+    list-style-type: none;
+}
+.page{
+    height: 1000px;
+    border: 1px solid black;
+}
+.header{
+    background-color: orange;
+    width: 150px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+    font-weight: bold;
+    border-radius: 20%;
+}
+.sticky{
+    position: sticky;
+    top: 3%;
+    margin: 2%;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 3%;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.lorem{
+    margin-left: 200px;
+    margin-top: -120px;
+}
